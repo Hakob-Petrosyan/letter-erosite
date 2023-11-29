@@ -1,0 +1,95 @@
+@import "../font-montserrat/stylesheet.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+.container {
+    width: 100%;
+    max-width: 590px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header {
+    padding: 13px 0;
+}
+.page-title{
+    color: #000;
+    font-size: 23px;
+    font-weight: 600;
+}
+.page-content{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.page-content p{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+.confirm-e-mail-btn{
+    display: flex;
+    gap: 12px;
+    height: 48px;
+    padding: 10px 20px 12px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 28px;
+    background: #DD9E5C;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.confirm-e-mail-link{
+    text-decoration: none;
+    color: #0094FF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%
+}
+footer{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #A0A0A0;
+    padding-bottom: 20px;
+}
+.footer-top{
+    font-size: 14px;
+    font-weight: 500;
+}
+.footer-row {
+    font-size: 13px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.footer-bottom{
+    justify-content: space-between;
+    gap: 30px;
+}
+.footer-bottom a{
+    color: #A0A0A0;
+ }
+.icon-18-wrapper{
+    height: 21px;
+    width: 21px;
+    border: 1px solid #999999;
+    border-radius: 1000px;
+    display: flex;align-items: center;
+    justify-content: center;
+    color: #000000;
+    font-size: 8px;
+    font-weight: 500;
+}
